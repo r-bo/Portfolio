@@ -1,0 +1,470 @@
+/*~~~~~~~~~~~~~~~~~~*Universal*~~~~~~~~~~~~~~~~~~~~~~*/
+
+body {
+    font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.font-white {
+    color: #ffffff;
+}
+
+.font-purple {
+    color: #1E1E8D;
+}
+
+h1 {
+    font-size: 34px;
+    margin-bottom: .7em;
+    margin-right: 1em;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: .7em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#logo {
+    padding: 1em;
+}
+
+.align-items-center {
+    display: flex;
+    align-items: center;
+    /*Aligns vertically center */
+    justify-content: center;
+    /*Aligns horizontally center */
+}
+
+.price {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.btn {
+    color: #ffffff;
+    padding: 5px 30px;
+    font-size: 21px;
+    font-weight: 500;
+    background: #E84188;
+    border: none;
+}
+
+.btn:hover {
+    background: #ffffff;
+    color: #E84188;
+}
+
+/*~~~~~~~~~~~~~~~~~~*Hero Section*~~~~~~~~~~~~~~~~~~~~~~*/
+
+#hero-gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e1e8d+0,1e1e8d+100&0.35+50,0.85+100 */
+    background: -moz-linear-gradient(top, rgba(30, 30, 141, 0.35) 0%, rgba(30, 30, 141, 0.35) 50%, rgba(30, 30, 141, 0.85) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(30, 30, 141, 0.35) 0%, rgba(30, 30, 141, 0.35) 50%, rgba(30, 30, 141, 0.85) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(30, 30, 141, 0.35) 0%, rgba(30, 30, 141, 0.35) 50%, rgba(30, 30, 141, 0.85) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#591e1e8d', endColorstr='#d91e1e8d', GradientType=0);
+    /* IE6-9 */
+}
+
+#hero {
+    background: url('https://www.reed.co.uk/resources/cms/landing%20pages/generic/HeaderImage.png') no-repeat;
+    background-position: 35% 0%;
+}
+
+#hero .container {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+#hero p {
+    font-size: 23px;
+    margin-bottom: 1em;
+}
+
+#hero .cta-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~*Brands Section*~~~~~~~~~~~~~~~~~~~~~~*/
+
+#brands .container {
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+#brands p {
+    margin-bottom: 3.5em;
+}
+
+.brand-logos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+
+.brand-logos img {
+    max-width: 45%;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~*Testimonial Section*~~~~~~~~~~~~~~~~~~~~~~*/
+
+#testimonial {
+    background-color: #EEEEF6;
+}
+
+#testimonial .container {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.quote-open {
+    width: 2.5em;
+    position: relative;
+    right: 10px;
+}
+
+.quote-close {
+    width: 2.5em;
+    float: right;
+    position: relative;
+    left: 10px;
+    margin-bottom: 1em;
+}
+
+.tesimonial-person {
+    clear: right;
+}
+
+.quote p {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+#wesser {
+    width: 100px;
+}
+
+/*~~~~~~~~~~~~~~~~~~*Results Section*~~~~~~~~~~~~~~~~~~~~~~*/
+
+#results {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e1e8d+40,0f0f47+100 */
+    background: rgb(30, 30, 141);
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(30, 30, 141, 1) 40%, rgba(15, 15, 71, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(30, 30, 141, 1) 40%, rgba(15, 15, 71, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(30, 30, 141, 1) 40%, rgba(15, 15, 71, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e1e8d', endColorstr='#0f0f47', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+#results .container {
+    padding-bottom: 40px;
+
+}
+
+#heads {
+    padding: 0;
+}
+
+#heads img {
+    width: 100%;
+    margin-top: -30px;
+    margin-bottom: 40px
+}
+
+
+/*~~~~~~~~~~~~~~~~~~*Number-1 Section*~~~~~~~~~~~~~~~~~~~~~~*/
+
+.number-1-gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+52,0+100 */
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 52%, rgba(255, 255, 255, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 52%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 52%, rgba(255, 255, 255, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=0);
+    /* IE6-9 */
+}
+
+#number-1 {
+    background: url('https://www.reed.co.uk/resources/cms/landing%20pages/generic/rawpixel-740369-unsplash.png') no-repeat;
+    height: 550px;
+    background-position: 75% -75%;
+
+}
+
+#number-1 .container {
+    padding-top: 30px;
+    padding-bottom: 200px;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~*icon-list Section*~~~~~~~~~~~~~~~~~~~~~~*/
+
+#icon-list .container {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#icons .row {
+    margin-bottom: 1.5em;
+}
+
+/*~~~~~~~~~~~~~~~~~~*CTA Section*~~~~~~~~~~~~~~~~~~~~~~*/
+
+.cta-section-gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e1e8d+0,1e1e8d+100&0.35+35,0.85+100 */
+    background: -moz-linear-gradient(45deg, rgba(30, 30, 141, 0.35) 0%, rgba(30, 30, 141, 0.35) 35%, rgba(30, 30, 141, 0.85) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(30, 30, 141, 0.35) 0%, rgba(30, 30, 141, 0.35) 35%, rgba(30, 30, 141, 0.85) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(30, 30, 141, 0.35) 0%, rgba(30, 30, 141, 0.35) 35%, rgba(30, 30, 141, 0.85) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#591e1e8d', endColorstr='#d91e1e8d', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+#cta-section {
+    background: url('https://www.reed.co.uk/resources/cms/landing%20pages/generic/iStock-836661344.png') no-repeat;
+    background-size: cover;
+}
+
+#cta-section .container {
+    padding-top: 300px;
+    padding-bottom: 50px;
+}
+
+#source {
+    background-color: #EAEAEA;
+    font-size: .6em;
+    padding: 1em;
+    line-height: 2em;
+}
+
+/*~~~~~~~~~~~~~~~~~~*Footer*~~~~~~~~~~~~~~~~~~~~~~*/
+
+footer {
+    background: #212D38;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer li {
+    margin-bottom: 1.2em;
+    margin-left: 1em;
+}
+
+#footer-nav-mob .col-md-3 {
+    border-bottom: 2px solid #283643;
+}
+
+.footer-link-header {
+    margin: 0;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.footer-link-header a {
+    color: #ffffff;
+    font-weight: 500;
+    display: block;
+    line-height: 3.5em;
+}
+
+.love-mondays {
+    margin: 1em 0;
+}
+
+#footer-nav-desk {
+    padding: 3em 0;
+}
+
+#footer-nav-desk ul {
+    margin-top: 1em;
+}
+
+#footer-nav-desk li {
+    font-size: .8em;
+    margin: 1em 0;
+}
+
+.footer-base {
+    background: #1D2730;
+    padding-top: 1em;
+}
+
+.app img {
+    max-width: 130px;
+}
+
+.social-icon i {
+    margin: 20px 0;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.copyright {
+    text-align: center;
+    color: #ffffff;
+    font-size: .8em;
+    font-weight: 500;
+}
+
+
+
+
+
+/*#########################Media Queries############################*/
+@media only screen and (max-width: 768px) {
+    #footer-nav-desk {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    h1 {
+        font-size: 56px;
+        margin-bottom: .4em;
+    }
+
+    .btn {
+        max-width: 170px;
+    }
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~hero Section~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+    #hero .cta-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #hero .price {
+        display: block;
+    }
+
+    /*~~~~~~~~~~~~~~~~~~~Brands Section~~~~~~~~~~~~~~~~~~~~~*/
+
+    #brands .container {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    .brand-logos {
+        margin-bottom: 3em;
+        ;
+    }
+
+    /*~~~~~~~~~~~~~~~~~~~Testimonial Section~~~~~~~~~~~~~~~~~~~~~*/
+
+    .quote-open,
+    .quote-close {
+        width: 4em;
+    }
+
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~Results Section~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+    #results .container {
+        padding-bottom: 0px;
+        margin-bottom: -70px;
+    }
+
+    #results-text {
+        max-width: 70%;
+        margin: auto;
+        position: relative;
+        bottom: 30px;
+    }
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~Icon list Section~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+    #icon-list .container {
+        padding: 50px 70px;
+    }
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~Number 1 Section~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+    .number-1-gradient {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+25,0+100 */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1);
+        /* IE6-9 */
+        height: 100%;
+    }
+
+    #number-1 {
+        background-size: cover;
+        background-position: 0% 50%;
+    }
+
+    #number-1 .container {
+        padding-top: 160px;
+    }
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~CTA Section~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+    #cta-section {
+        background-position: 50% 20%;
+    }
+
+    #cta-section .container {
+        padding-top: 70px;
+    }
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~Footer Section~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+    #footer-nav-mob {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (min-width: 1240px) {
+
+    #hero,
+    #hero-gradient {
+        background-size: cover;
+        height: 500px;
+    }
+    
+    
+}
