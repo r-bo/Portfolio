@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+       <!--- Top header section - logo/options etc --->
+        <div class="header-top">
+          
+           <!--- DESK - Region/Currency & gender options --->
+            <div class="options big-screen-only">
+                <div class="region">
+                    <span>UK £</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <span class="shop-group">
+                    <a href="#">Women</a>
+                    <a href="#">Men</a>
+                    <a href="#">Kids</a>
+                </span>
+            </div>
+            <!--- /DESK - Region/Currency & gender options --->
+            
+            <!--- MOB - menu & search buttons --->
+            <div class="menu-btns">
+                <div><i class="fas fa-bars" id="menu-btn"></i>
+                    <i class="fas fa-search" id="search-btn"></i>
+                </div>
+            </div>
+            <!--- /MOB - menu & search buttons --->
+            
+            <!--- Logo --->
+            <div class="logo"><a href="#"><img src="images/logo.png" alt=""></a>
+            </div>
+            <!--- /Logo --->
+            
+            <!--- Account settings --->
+            <span class="account-settings">
+                <a href="#"><i class="fas fa-user big-screen-only"></i></a>
+                <a href="#"><i class="fas fa-star"></i></a>
+                <a href="#"><i class="fas fa-shopping-bag"></i></a>
+                <a href="#"><i class="fas fa-bell big-screen-only"></i></a>
+            </span>
+            <!--- /Account settings --->
+        </div>
+        <!--- /Top header section - logo/options etc --->
+        
+        <!--- nav/search section --->
+        <nav id="nav-menu">
+            <ul id="menu-items">
+                <li><a href="#">New&nbsp;In</a></li>
+                <li><a href="#">Designers</a></li>
+                <li><a href="#">Clothing</a></li>
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">Bags</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Jewellery</a></li>
+                <li><a href="#">Vintage</a></li>
+                <li><a href="#">#TheOne</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+            <div class="search big-screen-only">
+                <input type="text" placeholder="Search...">
+                <i class="fas fa-search"></i>
+            </div>
+        </nav>
+        <!--- /nav/search section --->
+        
+        <!---- mobile only search bar ----->
+        <div id="mob-search">
+            <input type="text" placeholder="Search...">
+        </div>
+        <!---- /mobile only search ----->
+    </header>
+    
+    <!--- grey strip --->
+    <div class="strip">
+        <!---Mobile--->
+        <span class="small-screen-only"><a href="">SALE</a><i class="fas fa-plus"></i></span>
+        <!---Tablet--->
+        <span class="tablet-screen-only"><a href="#">SIGN UP TO OUR NEWSLETTER</a><i class="fas fa-plus"></i></span>
+        <!---Desktop--->
+        <span class="big-screen-only">We offer free global returns and pickup service: <a href="#">Find out more</a></span>
+    </div>
+    <!--- /grey strip --->
+    
+    <!--- content --->
+    <main>
+        <div class="offer-content">
+            <img src="images/AXP_BlueBoxLogo_REGULARscale_RGB_DIGITAL_170x170.png" alt="">
+            <h1>Need an excuse to&nbsp;shop?</h1>
+            <p>Enjoy $100 off order of $500 or more with Amex. Use&nbsp;code:&nbsp;<span style="font-weight: 700">AMCEAW18</span>
+                <br><br><span style="font-weight: 900;">You're welcome.</span></p>
+            <div class="CTA">
+                <a href="#" class="btn">SHOP WOMENS</a>
+                <a href="#" class="btn">SHOP MENS</a>
+            </div>
+            <span style="font-size: .8em;">Terms and conditions apply</span>
+        </div>
+    </main>
+    <!--- /content --->
+
+    <script>
+        var menuBtn = document.getElementById('menu-btn'),
+            searchBtn = document.getElementById('search-btn');
+
+        menuBtn.addEventListener('click', toggleMenu)
+        searchBtn.addEventListener('click', toggleSearch)
+
+        function toggleMenu() {
+            var menu = document.getElementById('nav-menu'),
+                menuItems = document.getElementById('menu-items'),
+                open = 'scale(1, 1)';
+
+            if (menu.style.transform == open) {
+                menu.style.transform = 'scale(1, 0)';
+                menuItems.style.transition = 'opacity 250ms ease';
+                menuItems.style.opacity = '0';
+            } else {
+                menu.style.transform = open;
+                menuItems.style.transition = 'opacity 250ms ease 300ms';
+                menuItems.style.opacity = '1';
+            }
+        }
+
+        function toggleSearch() {
+            var searchBar = document.getElementById('mob-search'),
+                searchOn = 'block';
+
+            if (searchBar.style.display == searchOn) {
+                searchBar.style.display = 'none';
+            } else {
+                searchBar.style.display = searchOn;
+            }
+
+        }
+    </script>
+</body>
+
+</html>
